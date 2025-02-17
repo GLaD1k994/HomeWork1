@@ -1,9 +1,11 @@
 body {
     background: blue;
     display: block;
+
 }
 h1 {
     color: red;
+    text-align: center;
 }
 button {
     color:blueviolet;

@@ -1,5 +1,6 @@
 body {
     background: blue;
+    display: block;
 }
 h1 {
     color: red;

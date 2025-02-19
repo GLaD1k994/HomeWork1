@@ -4,11 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-
+<link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <h1>Day or night</h1>
-<button>Night</button>
-<button>Day</button>
+<button class="btnNight">Night</button>
+<button class="btnDay">Day</button>
+<script>
+    
+    function day(color) {
+        document.body.style.backgroundColor = 'yellow';
+    }
+    function night(color) {
+        document.body.style.backgroundColor = 'black'; 
+    }
+function init() {
+    document.querySelector(".btnDay").addEventListener("click", day)
+    document.querySelector(".btnNight").addEventListener("click", night)
+}
+    window.addEventListener("DOMContentLoaded", init);
+</script>
     </body>
 </html>
